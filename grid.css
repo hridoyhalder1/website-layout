@@ -1,0 +1,20 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 100px 300px 100px 300px;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    /* justify-content: space-between; */
+    
+}
+.container div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 1.9em;
+    padding: 20px 0;
+}
+.item {
+    border: 1px solid brown;
+    font-size: 1.5em;
+}

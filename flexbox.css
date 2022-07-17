@@ -1,0 +1,18 @@
+.container {
+    border: 1px solid purple;
+    height: 300px;
+    display: flex;
+    /* justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center; */   
+}
+#box-2 {
+    flex-grow: 1;
+}
+.box {
+    /* height: 150px; */
+    width: 150px;
+    border: 2px dashed teal;
+    font-weight: bold;
+    font-size: 2rem;
+}
